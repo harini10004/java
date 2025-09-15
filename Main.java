@@ -111,4 +111,81 @@ public class Main {
             System.out.println("❌ Invalid record number.");
         }
     }
+
 }
+
+
+\\OUTPUT
+    === SIMPLE CRUD APP ===
+1. Create (Add Person)
+2. Read (View All People)
+3. Update (Edit Person)
+4. Delete (Remove Person)
+5. Exit
+Enter your choice: 1
+Enter name: Kaviya
+Enter age: 15
+✅ Person added successfully!
+
+=== SIMPLE CRUD APP ===
+1. Create (Add Person)
+2. Read (View All People)
+3. Update (Edit Person)
+4. Delete (Remove Person)
+5. Exit
+Enter your choice: 1
+Enter name: Kavi
+Enter age: 18
+✅ Person added successfully!
+
+=== SIMPLE CRUD APP ===
+1. Create (Add Person)
+2. Read (View All People)
+3. Update (Edit Person)
+4. Delete (Remove Person)
+5. Exit
+Enter your choice: 2
+
+--- People List ---
+1. Name: Kaviya, Age: 15
+2. Name: Kavi, Age: 18
+
+=== SIMPLE CRUD APP ===
+1. Create (Add Person)
+2. Read (View All People)
+3. Update (Edit Person)
+4. Delete (Remove Person)
+5. Exit
+Enter your choice: 3
+
+--- People List ---
+1. Name: Kaviya, Age: 15
+2. Name: Kavi, Age: 18
+Enter record number to update: 2
+Enter new name: Kavi G
+Enter new age: 18
+✅ Record updated successfully!
+
+=== SIMPLE CRUD APP ===
+1. Create (Add Person)
+2. Read (View All People)
+3. Update (Edit Person)
+4. Delete (Remove Person)
+5. Exit
+Enter your choice: 4
+
+--- People List ---
+1. Name: Kaviya, Age: 15
+2. Name: Kavi G, Age: 18
+Enter record number to delete: 2
+✅ Record deleted successfully!
+
+=== SIMPLE CRUD APP ===
+1. Create (Add Person)
+2. Read (View All People)
+3. Update (Edit Person)
+4. Delete (Remove Person)
+5. Exit
+Enter your choice: 5
+Exiting... Goodbye!
+//
